@@ -1,4 +1,5 @@
 require_relative 'db_connection'
+require_relative 'associatable'
 require 'active_support/inflector'
 
 
