@@ -30,10 +30,11 @@ git clone https://github.com/szhu1026/Datafy
 $ pry
 [1] pry(main)> load 'test_models/sample_model.rb'
 => true
+```
 
-Search examples:
+**3.** Search examples:
 
-```ruby
+````ruby
 # Retrieve all plants where owner_id is 2.
 Plant.where(owner_id: 2)
 
@@ -42,3 +43,4 @@ Plant.all
 
 # Find a single plant by an id.
 Plant.find(1)
+````
